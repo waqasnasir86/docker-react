@@ -1,0 +1,9 @@
+sudo: required
+services:
+    - docker
+
+before_install:
+    - docker build -t ncwaqas/docker-react -f Dockerfile.dev .
+
+script:
+    - docker run -e CI=true ncwaqas/docker-react npm run test
