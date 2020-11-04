@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          We have changed the code @ <code>src/App.js</code> for production
+          I am running on feature branch @ <code>src/App.js</code> for production
         </p>
         <a
           className="App-link"
